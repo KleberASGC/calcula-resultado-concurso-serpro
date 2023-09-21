@@ -50,7 +50,6 @@ print('Modelo: ', file=arquivo_saida)
 print('Número de Inscrição - Nome do Candidato - Nota Objetivas Básicas (N1) - Nota Objetivas Específicas (N2) - Total Notas Objetivas TNO (N1 + (2 * N2)) - Nota Aplicadas (N3) - Nota Final Concurso NFC (N1 + (2 x N2) + N3) \n', file=arquivo_saida)
 
 counter = 1
-counter_aux = 1
 previous_score = 1
 previous_position = 1
 for candidate in result:
