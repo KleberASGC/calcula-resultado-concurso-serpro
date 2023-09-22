@@ -33,8 +33,8 @@ for candidate in candidates_objectives:
     if not candidate_found:
         continue
 
-    score_specific = aux[-2].replace(',', '')
-    score_basic = aux[-4].replace(',', '')
+    score_specific = aux[-3].replace(',', '')
+    score_basic = aux[-5].replace(',', '')
     
     candidate_found['score_specific'] = float(score_specific)
     candidate_found['score_basic'] = float(score_basic)
